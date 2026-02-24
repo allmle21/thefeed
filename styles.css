@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f0e5e8 0%, #e8d5db 100%);
+    overflow: hidden;
+}
+
+
+.inner-page {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    width: calc(100% - 60px);
+    height: 100%;
+    background: #ffffff;
+    z-index: 5;
+    background-image: radial-gradient(circle, #ffb8c9 1.5px, transparent 1.5px);
+    background-size: 20px 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cover-content {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg,
+        #ffcfd9 0%,
+        #ffb8c9 50%,
+        #ffa8bb 100%
+    );
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: 
+        inset 0 0 50px rgba(255, 255, 255, 0.2),
+        0 10px 30px rgba(0, 0, 0, 0.2);
+    transform-origin: left center;
+    transition: transform 1.2s ease-in-out;
+    cursor: pointer;
+}
+
+.cover-content.open {
+    transform: rotateY(-170deg);
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.cover-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff9fc;
+    text-shadow: 
+        2px 2px 4px rgba(77, 24, 44, 0.3),
+        0 0 10px rgba(103, 51, 75, 0.5);
+    z-index: 5;
+    pointer-events: none;
+    font-family: 'twinkle Star', cursive;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.flower {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 5%;
+    left: 2%;
+    z-index: 1;
+}
+.strawberry {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 60%;
+    left: 50%;
+    z-index: 1;
+}
+.receipt {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 35%;
+    left: 80%;
+    z-index: 1;
+}
+.doodle {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 2%;
+    left: 60%;
+    z-index: 1;
+}
+.camera {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 55%;
+    left: 55%;
+    z-index: 1;
+}
+.pen {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 40%;
+    left: -5%;
+    z-index: 1;
+}
+.music {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 15%;
+    left: 35%;
+    z-index: 1;
+}
+.bear {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 10%;
+    left: 30%;
+    z-index: 1;
+}
+.button1 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 71%;
+    left: 44%;
+    z-index: 1;
+}
+.patch {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 60%;
+    left: 3%;
+    z-index: 1;
+}
+.button2 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 70%;
+    left: 2%;
+    z-index: 1;
+}
+.button3 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 20%;
+    left: 57%;
+    z-index: 1;
+}
+.button4 {
+    position: absolute;
+    width: 170px;
+    height: auto;
+    top: 30%;
+    left: 55%;
+    z-index: 1;
+}
+.button5 {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 33%;
+    left: 23%;
+    z-index: 1;
+}
+.button6 {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 60%;
+    left: 30%;
+    z-index: 1;
+}
+.tape1 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+}
+.post {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top: 25%;
+    left: 15%;
+    z-index: 1;
+}
+.camera,
+.music {
+    transition: transform 0.3s ease;
+}
+
+.camera:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+
+.music:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
