@@ -11,25 +11,49 @@ body {
     background-image: radial-gradient(circle, #ffb8c9 1.5px, transparent 1.5px);
     background-size: 20px 20px;
 }
+.tape1 {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 5%;
+    left: 70%;
+    transform: rotate(25deg);
+    z-index: 999;
+    pointer-events: none;
+}
 
 .back-link {
-    display: inline-block;
-    margin-bottom: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 47px;
     text-decoration: none;
     color: #333;
+    z-index: 10;
+}
+
+.camera {
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: -65px;
 }
 
 .main-container {
+    position: relative;
     display: flex;
-    gap: 100px;
+    gap: 200px;
+    margin-top: 80px;
     align-items: flex-start;
+    z-index: 2;
 }
 
 .title-section {
     position: sticky;
     top: 20px;
     flex-shrink: 0;
-    width: 200px;
+    width: 400px;
 }
 
 .title-section h1 {
@@ -39,29 +63,41 @@ body {
 }
 
 .info-box {
-    margin-top: 20px;
     background-color: #ffe8ef;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
+    margin-left: 69px;
+    width: 463px;
+}
+.info-box h2 {
+    font-size: 2.0rem;
+    line-height: 1.6;
+    text-align: center;
+    font-family: "Twimkle Star", cursive;
+    font-weight: 400;
 }
 
-.info-box h2 {
+.info-box p {
     font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: "sour gummy";
+    font-weight: 400;
 }
+
 
 .feed-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    max-width: 500px;
+    max-width: 5000px;
 }
 
 .feed-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #ffe8ef;
     padding: 20px;
     border: 1px solid #ddd;
@@ -69,8 +105,8 @@ body {
 }
 
 .feed-item img {
-    width: 100%;
-    max-width: 300px;
+    width: 200%;
+    max-width: 600px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -78,5 +114,102 @@ body {
 .feed-item p {
     color: #333;
     line-height: 1.6;
-    font-size: 1rem;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    font-family: "sour gummy";
+    font-weight: 400;
+}
+.back-link img {
+    width: 120px;
+    height: auto;
+}
+
+.background-images {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;  
+    opacity: 50%;
+    height: 100vh; 
+    z-index: 1;
+    pointer-events: none;
+    overflow: visible; 
+}
+
+.sticker2 {
+    position: absolute;
+    width: 140px;
+    top: 2%;
+    left: 0%;
+}
+
+.sticker3 {
+    position: absolute;
+    width: 110px;
+    height: auto;
+    top: 2%;
+    left: 83%;
+}
+
+.sticker4 {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    top: 57%;
+    left: 35%;
+}
+
+.sticker5 {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: -3%;
+    left: 40%;
+}
+
+.sticker6 {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    top: 38%;
+    left: 15%;
+}
+
+.sticker7 {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 35%;
+    left: 90%;
+}
+
+.sticker8 {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    top: 65%;
+    left: 0%;
+}
+
+.sticker9 {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    top: 58%;
+    left: 85%;
+}
+
+.sticker10 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 78%;
+    left: 25%;
 }

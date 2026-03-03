@@ -17,9 +17,9 @@ body {
 
 .inner-page {
     position: absolute;
-    left: 60px;
+    left: 0;
     top: 0;
-    width: calc(100% - 60px);
+    width: 100%;
     height: 100%;
     background: #ffffff;
     z-index: 5;
@@ -43,30 +43,12 @@ body {
     z-index: 1;
 }
 
-.cover-title {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 6rem;
-    font-weight: bold;
-    color: #fff9fc;
-    text-shadow: 
-        2px 2px 4px rgba(77, 24, 44, 0.3),
-        0 0 10px rgba(103, 51, 75, 0.5);
-    z-index: 5;
-    pointer-events: none;
-    font-family: 'twinkle Star', cursive;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-}
-
 .flower {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: auto;
-    top: 5%;
-    left: 2%;
+    top: 3%;
+    left: 1%;
     z-index: 1;
 }
 .strawberry {
@@ -79,10 +61,10 @@ body {
 }
 .receipt {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: auto;
-    top: 35%;
-    left: 80%;
+    top: 25%;
+    left: 77%;
     z-index: 1;
 }
 .doodle {
@@ -95,47 +77,47 @@ body {
 }
 .camera {
     position: absolute;
-    width: 350px;
+    width: 500px;
     height: auto;
-    top: 55%;
-    left: 55%;
+    top: 15%;
+    left: 34%;
     z-index: 1;
 }
 .pen {
     position: absolute;
     width: 600px;
     height: auto;
-    top: 40%;
-    left: -5%;
+    top: 43%;
+    left: -2%;
     z-index: 1;
 }
 .music {
     position: absolute;
-    width: 400px;
+    width: 450px;
     height: auto;
-    top: 15%;
-    left: 35%;
+    top: 50%;
+    left: 53%;
     z-index: 1;
 }
 .bear {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: auto;
-    top: 10%;
-    left: 30%;
+    top: 2%;
+    left: 50%;
     z-index: 1;
 }
 .button1 {
     position: absolute;
     width: 200px;
     height: auto;
-    top: 71%;
-    left: 44%;
+    top: 5%;
+    left: 85%;
     z-index: 1;
 }
 .patch {
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: auto;
     top: 60%;
     left: 3%;
@@ -143,49 +125,49 @@ body {
 }
 .button2 {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: auto;
-    top: 70%;
-    left: 2%;
+    top: 60%;
+    left: 0%;
     z-index: 1;
 }
 .button3 {
     position: absolute;
     width: 200px;
     height: auto;
-    top: 20%;
-    left: 57%;
+    top: 35%;
+    left: 67%;
     z-index: 1;
 }
 .button4 {
     position: absolute;
-    width: 170px;
+    width: 350px;
     height: auto;
-    top: 30%;
-    left: 55%;
+    top: 45%;
+    left: 42%;
     z-index: 1;
 }
 .button5 {
     position: absolute;
-    width: 100px;
+    width: 170px;
     height: auto;
-    top: 33%;
-    left: 23%;
+    top: 27%;
+    left: 18%;
     z-index: 1;
 }
 .button6 {
     position: absolute;
-    width: 400px;
+    width: 600px;
     height: auto;
     top: 60%;
-    left: 30%;
+    left: 24%;
     z-index: 1;
 }
 .tape1 {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: auto;
-    top: 5%;
+    top: 3%;
     left: 5%;
     z-index: 1;
 }
@@ -193,7 +175,7 @@ body {
     position: absolute;
     width: 700px;
     height: auto;
-    top: 25%;
+    top: 35%;
     left: 15%;
     z-index: 1;
 }
